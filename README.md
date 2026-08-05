@@ -17,15 +17,15 @@ Below is the structure of the table with the definition of each column that you 
 
 ## Table-1: job_data
 
-job_id: unique identifier of jobs
-actor_id: unique identifier of actor
-event: decision/skip/transfer
-language: language of the content
-time_spent: time spent to review the job in seconds
-org: organization of the actor
-ds: date in the yyyy/mm/dd format. It is stored in the form of text and we use presto to run. no need for date function
+1) job_id: unique identifier of jobs
+2) actor_id: unique identifier of actor
+3) event: decision/skip/transfer
+4) language: language of the content
+5) time_spent: time spent to review the job in seconds
+6) org: organization of the actor
+7) ds: date in the yyyy/mm/dd format. It is stored in the form of text and we use presto to run. no need for date function
 
-## Answer the Following
+## Answer the Following:
 
 1) Number of jobs reviewed: Amount of jobs reviewed over time.
          Your task: Calculate the number of jobs reviewed per hour per day for November 2020?
